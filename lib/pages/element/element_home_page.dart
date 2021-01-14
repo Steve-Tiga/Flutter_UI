@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterstudy/pages/expand/Animation/widgets/wave_wadget.dart';
 import 'package:flutterstudy/util/utils.dart';
 import 'package:flutterstudy/res/resources.dart';
 import 'package:flutterstudy/widgets/load_image.dart';
@@ -33,24 +34,17 @@ class _ElementHomePageState extends State<ElementHomePage> {
     isDark = context.isDark;
     return <Widget>[
       SliverAppBar(
+        title: Text('基础元素'),
         brightness: Brightness.dark,
-        leading: SizedBox.shrink(),
         backgroundColor: HSLColors.app_main,
-        elevation: 0.0,
-        centerTitle: true,
-        expandedHeight: 180.0,
+        expandedHeight: 220.0,
         pinned: true,
-        title: const Text('基础元素'),
         flexibleSpace: FlexibleSpaceBar(
           background: isDark
               ? Container(
                   color: HSLColors.dark_bg_color,
                 )
-              : LoadAssetImage(
-                  'common/SliverAppBar_bg',
-                  width: context.width,
-                  fit: BoxFit.fill,
-                ),
+              : headerView(),
           titlePadding:
               const EdgeInsetsDirectional.only(start: 16.0, bottom: 14.0),
           collapseMode: CollapseMode.pin,
@@ -80,7 +74,16 @@ class _ElementHomePageState extends State<ElementHomePage> {
       ),
     ];
   }
+  Widget headerView(){
+    return Stack(
+      children: [
+        WaveWidget(size: Size(context.width, context.height),waveAmplitude: 15,),
+      ],
+    );
+  }
 }
+
+
 
 class GetGridViewItem extends StatelessWidget {
   const GetGridViewItem({Key key, this.listData, this.callBack, this.color})

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/element/widgets/element_title_view.dart';
+import 'package:flutterstudy/pages/expand/Animation/widgets/wave_wadget.dart';
 
 class CustomAnimationPage extends StatefulWidget {
   @override
@@ -15,6 +16,7 @@ class _CustomAnimationPageState extends State<CustomAnimationPage> {
           ElementTitleView('自定义动画'),
           CustomAnimationWidgets(),
           ElementTitleView('自定义动画'),
+          WaveWidget(size: Size(MediaQuery.of(context).size.width, 150),bgColor: Colors.lightBlue,)
         ],
       ),
     );

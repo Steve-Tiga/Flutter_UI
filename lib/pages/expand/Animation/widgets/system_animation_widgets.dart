@@ -42,7 +42,12 @@ class _DecoratedBoxTransitionWidgetState extends State<DecoratedBoxTransitionWid
   Animation _animation;
   void initState() {
     _animationController =
-        AnimationController(duration: Duration(seconds: 2), vsync: this);
+        AnimationController(duration: Duration(seconds: 2), vsync: this)..addStatusListener((status) {
+          if(status == AnimationStatus.completed){
+            _animationController.reset();
+            _animationController.forward();
+          }
+        });
 
     _animation = DecorationTween(begin: BoxDecoration(
         color: Colors.red,
@@ -204,7 +209,12 @@ class _AlignTransitionWidgetState extends State<AlignTransitionWidget> with Tick
   @override
   void initState() {
     _animationController =
-        AnimationController(duration: Duration(seconds: 2), vsync: this);
+        AnimationController(duration: Duration(seconds: 2), vsync: this)..addStatusListener((status) {
+          if(status == AnimationStatus.completed){
+            _animationController.reset();
+            _animationController.forward();
+          }
+        });
     _animation = Tween<AlignmentGeometry>(
         begin: Alignment.topLeft, end: Alignment.bottomRight)
         .animate(_animationController);
