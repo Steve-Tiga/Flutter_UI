@@ -17,7 +17,7 @@ class IndexPage extends StatefulWidget {
 class _IndexPageState extends State<IndexPage> {
   static const double _imageSize = 25.0;
   List<Widget> _pageList;
-  final List<String> _appBarTitles = ['元素','控件','拓展','关于'];
+  final List<String> _appBarTitles = ['元素','自定义页面','拓展','关于'];
   final PageController _pageController = PageController();
 
   List<BottomNavigationBarItem> _list;

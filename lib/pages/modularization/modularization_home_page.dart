@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutterstudy/pages/modularization/model/modularization_list_model.dart';
 import 'package:flutterstudy/util/colors.dart';
+import 'package:flutterstudy/widgets/load_image.dart';
 
 class ModularizationHomePage extends StatefulWidget {
   @override
@@ -10,6 +12,8 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
     with TickerProviderStateMixin {
   final ScrollController scrollController = ScrollController();
   double topBarOpacity = 0.0;
+
+  List<ModularizationList> homeList = ModularizationList.homeList;
 
   @override
   void initState() {
@@ -60,7 +64,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
   Widget getMainListViewUI() {
     return ListView.separated(
         physics: AlwaysScrollableScrollPhysics(),
-        itemCount: 50,
+        itemCount: homeList.length,
         controller: scrollController,
         padding: EdgeInsets.only(
           top: AppBar().preferredSize.height +
@@ -71,11 +75,81 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
           return Divider();
         },
         itemBuilder: (BuildContext context, int index) {
-          return Container(
-            color: Colors.yellow,
-            height: 20,
-          );
+          return listItem(homeList[index], () {
+            Navigator.push<dynamic>(
+              context,
+              MaterialPageRoute<dynamic>(
+                builder: (BuildContext context) =>
+                    homeList[index].navigateScreen,
+              ),
+            );
+          });
         });
+  }
+
+  Widget listItem(ModularizationList listData, VoidCallback callback) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 12, left: 12, right: 12, bottom: 0),
+      child: InkWell(
+        child: Container(
+          padding: const EdgeInsets.all(12),
+          decoration: BoxDecoration(
+            color: HSLColors.bg_color,
+            borderRadius: BorderRadius.circular(8.0),
+          ),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              Expanded(
+                child: AspectRatio(
+                  aspectRatio: 1.0,
+                  child:
+                      LoadAssetImage('${listData.imagePath}', fit: BoxFit.fill),
+                ),
+                flex: 1,
+              ),
+              SizedBox(
+                width: 20,
+              ),
+              Expanded(
+                child: Container(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text(
+                        '${listData.title}',
+                        style: TextStyle(
+                          fontSize: 21,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.left,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Text(
+                        '${listData.subTitle}',
+                        textAlign: TextAlign.left,
+                        style: TextStyle(color: HSLColors.dark_text,fontSize: 16),
+//                          overflow: TextOverflow.ellipsis,
+//                          softWrap: true,
+                      ),
+                    ],
+                  ),
+                ),
+                flex: 2,
+              )
+            ],
+          ),
+        ),
+        onTap: () {
+          callback();
+        },
+      ),
+    );
   }
 
   Widget getAppBarUI() {
@@ -114,7 +188,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          '常用的控件',
+                          '常用的页面',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                             fontWeight: FontWeight.w700,
