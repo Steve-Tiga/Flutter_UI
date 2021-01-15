@@ -3,9 +3,8 @@ import 'package:flutterstudy/pages/expand/stateManagement/InheritedWidget_page.d
 import 'package:flutterstudy/pages/expand/stateManagement/model/state_management_model.dart';
 import 'package:flutterstudy/pages/expand/stateManagement/provider_demo_page.dart';
 import 'package:flutterstudy/pages/expand/stateManagement/widgets/state_management_list_Item.dart';
-import 'package:flutterstudy/res/resources.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:oktoast/oktoast.dart';
-import 'package:provider/provider.dart';
 import 'eventBus/event_bus.dart';
 import 'addCount_page.dart';
 
@@ -16,6 +15,7 @@ class StateManagementPage extends StatefulWidget {
 
 class _StateManagementPageState extends State<StateManagementPage> {
   List<StateModel> _items = List<StateModel>();
+
   @override
   void initState() {
     // TODO: implement initState
@@ -24,8 +24,14 @@ class _StateManagementPageState extends State<StateManagementPage> {
         title: 'Function callback',
         des: '函数回调\n实现场景：点击该cell弹出弹框，点击其他cell跳转',
         count: 0));
-    _items.add(StateModel(title: '事件总线-EventBus', des: '发布者-订阅者模式\n实现场景：点击下个页面增加按钮，改变小红点', count: 0));
-    _items.add(StateModel(title: '通知-Notification', des: '通知冒泡:由子向父的传递\n实现场景：点击发送通知按钮，接收到通知内容', count: 0));
+    _items.add(StateModel(
+        title: '事件总线-EventBus',
+        des: '发布者-订阅者模式\n实现场景：点击下个页面增加按钮，改变小红点',
+        count: 0));
+    _items.add(StateModel(
+        title: '通知-Notification',
+        des: '通知冒泡:由子向父的传递\n实现场景：点击发送通知按钮，接收到通知内容',
+        count: 0));
     _items.add(StateModel(
         title: '数据共享-InheritedWidget',
         des:
@@ -63,7 +69,10 @@ class _StateManagementPageState extends State<StateManagementPage> {
         centerTitle: true,
         title: Text(
           '状态管理',
-          style: HSLTextStyles.textWhite16,
+          style: TextStyle(
+            fontSize: 16,
+            color: Colors.white,
+          ),
         ),
       ),
       body: new ListView.separated(
@@ -82,23 +91,29 @@ class _StateManagementPageState extends State<StateManagementPage> {
                 Navigator.push<dynamic>(
                   context,
                   MaterialPageRoute<dynamic>(
-                    builder: (BuildContext context) => AddCountPage(pageType: addCountPageType.EventBusType,model: _items[index],),
+                    builder: (BuildContext context) => AddCountPage(
+                      pageType: addCountPageType.EventBusType,
+                      model: _items[index],
+                    ),
                   ),
                 );
-              }else if(index == 2){
+              } else if (index == 2) {
                 Navigator.push<dynamic>(
                   context,
                   MaterialPageRoute<dynamic>(
-                    builder: (BuildContext context) => AddCountPage(pageType: addCountPageType.NotificationType,model: _items[index],),
+                    builder: (BuildContext context) => AddCountPage(
+                      pageType: addCountPageType.NotificationType,
+                      model: _items[index],
+                    ),
                   ),
                 );
-              }else if(index == 3){
+              } else if (index == 3) {
                 Navigator.push<dynamic>(
                   context,
                   MaterialPageRoute<dynamic>(
                       builder: (BuildContext context) => InheritedWidgetPage()),
                 );
-              }else if(index == 4){
+              } else if (index == 4) {
                 Navigator.push<dynamic>(
                   context,
                   MaterialPageRoute<dynamic>(

@@ -1,8 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutterstudy/res/colors.dart';
-import 'package:flutterstudy/res/resources.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:flutterstudy/util/utils.dart';
 import 'package:flutterstudy/widgets/load_image.dart';
 
@@ -78,15 +77,24 @@ class HomePageCard extends StatelessWidget {
                               children: <InlineSpan>[
                             TextSpan(
                                 text: title.substring(0, 1),
-                                style: HSLTextStyles.textWhiteBold28),
+                                style: TextStyle(
+                                    fontSize: 28.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white)),
                             TextSpan(text: '  '),
                             TextSpan(
                                 text: title.substring(1, title.length),
-                                style: HSLTextStyles.textWhite16)
+                                style: TextStyle(
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white))
                           ])),
                       Text(
                         subTitle,
-                        style: HSLTextStyles.textWhite14,
+                        style: TextStyle(
+                            fontSize: 14.0,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
                       )
                     ],
                   ),

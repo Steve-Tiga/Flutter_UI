@@ -181,6 +181,7 @@ class _AnimatedAlignWidgetState extends State<AnimatedAlignWidget> {
       child: AnimatedAlign(
         alignment: _alignment,
         duration: Duration(seconds: 1),
+        curve: Curves.fastOutSlowIn,//设置动画速度
         child: IconButton(
           icon: Icon(
             Icons.print,

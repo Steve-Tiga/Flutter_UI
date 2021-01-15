@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/expand/Animation/widgets/wave_wadget.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:flutterstudy/util/utils.dart';
-import 'package:flutterstudy/res/resources.dart';
 import 'package:flutterstudy/widgets/load_image.dart';
 import 'model/element_home_model.dart';
 import 'widgets/home_list_card.dart';
@@ -13,6 +13,7 @@ class ElementHomePage extends StatefulWidget {
 
 class _ElementHomePageState extends State<ElementHomePage> {
   List<HomeList> homeList = HomeList.homeList;
+
   @override
   void initState() {
     super.initState();
@@ -34,12 +35,12 @@ class _ElementHomePageState extends State<ElementHomePage> {
     isDark = context.isDark;
     return <Widget>[
       SliverAppBar(
-        title: Text('基础元素'),
         brightness: Brightness.dark,
-        backgroundColor: HSLColors.app_main,
-        expandedHeight: 220.0,
+        backgroundColor: HSLColors.caribbean_color,
+        expandedHeight: 250.0,
         pinned: true,
         flexibleSpace: FlexibleSpaceBar(
+          title: Text('基础元素'),
           background: isDark
               ? Container(
                   color: HSLColors.dark_bg_color,
@@ -74,16 +75,20 @@ class _ElementHomePageState extends State<ElementHomePage> {
       ),
     ];
   }
-  Widget headerView(){
+
+  Widget headerView() {
     return Stack(
       children: [
-        WaveWidget(size: Size(context.width, context.height),waveAmplitude: 15,),
+        LoadAssetImage(
+            'element/BasicsBg'),
+        WaveWidget(
+          size: Size(context.width, context.height),
+          waveAmplitude: 15,
+        ),
       ],
     );
   }
 }
-
-
 
 class GetGridViewItem extends StatelessWidget {
   const GetGridViewItem({Key key, this.listData, this.callBack, this.color})

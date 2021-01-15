@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/expand/stateManagement/model/state_management_model.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:flutterstudy/widgets/badge_text.dart';
-import 'package:flutterstudy/widgets/image_round_text.dart';
-import 'package:flutterstudy/res/resources.dart';
 
 class StateManageListItem extends StatelessWidget {
   final StateModel stateModel;
@@ -28,7 +27,7 @@ class StateManageListItem extends StatelessWidget {
                   Text(
                     stateModel.title,
                     textAlign: TextAlign.start,
-                    style: HSLTextStyles.textSize16,
+                    style: TextStyle(fontSize: 16.0),
                   ),
                   SizedBox(
                     height: 6,
@@ -36,7 +35,10 @@ class StateManageListItem extends StatelessWidget {
                   Text(
                     stateModel.des,
                     textAlign: TextAlign.start,
-                    style: HSLTextStyles.textDark14,
+                    style: TextStyle(
+                        fontSize: 14.0,
+                        color: HSLColors.dark_text,
+                        textBaseline: TextBaseline.alphabetic),
                   ),
                 ],
               ),

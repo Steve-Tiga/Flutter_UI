@@ -8,8 +8,7 @@ import 'package:flutterstudy/pages/element/Layout/widget/fractionallySizedBox_la
 import 'package:flutterstudy/pages/element/Layout/widget/row_layout_view.dart';
 import 'package:flutterstudy/pages/element/Layout/widget/stack_layout_view.dart';
 import 'package:flutterstudy/pages/element/Layout/widget/wrap_layout_View.dart';
-import 'package:flutterstudy/res/colors.dart';
-import 'package:flutterstudy/res/resources.dart';
+import 'package:flutterstudy/util/colors.dart';
 
 class ElementLayoutPage extends StatefulWidget {
   @override

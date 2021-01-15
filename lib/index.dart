@@ -3,10 +3,9 @@ import 'package:flutterstudy/pages/about/about_home_page.dart';
 import 'package:flutterstudy/index_provider.dart';
 import 'package:flutterstudy/pages/modularization/modularization_home_page.dart';
 import 'package:flutterstudy/widgets/load_image.dart';
-import 'package:flutterstudy/res/colors.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:flutterstudy/pages/element/element_home_page.dart';
 import 'package:flutterstudy/util/theme_utils.dart';
-import 'package:flutterstudy/res/resources.dart';
 import 'package:provider/provider.dart';
 import 'package:flutterstudy/pages/expand/expand_home_page.dart';
 

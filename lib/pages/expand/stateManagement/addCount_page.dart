@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterstudy/res/colors.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'eventBus/event_bus.dart';
 import 'model/state_management_model.dart';
 

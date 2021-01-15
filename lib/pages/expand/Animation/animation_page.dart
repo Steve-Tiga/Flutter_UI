@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/expand/Animation/widgets/custom_animation_page.dart';
 import 'package:flutterstudy/pages/expand/Animation/widgets/system_animation_widgets.dart';
-import 'package:flutterstudy/res/colors.dart';
+import 'package:flutterstudy/util/colors.dart';
 
 class AnimationPage extends StatefulWidget {
   @override

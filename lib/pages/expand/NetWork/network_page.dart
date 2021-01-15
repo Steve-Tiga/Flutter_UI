@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/element/widgets/element_title_view.dart';
 import 'package:flutterstudy/pages/expand/NetWork/model/network_model.dart';
-import 'package:flutterstudy/res/colors.dart';
+import 'package:flutterstudy/util/colors.dart';
 
 class NatworkPage extends StatefulWidget {
   @override

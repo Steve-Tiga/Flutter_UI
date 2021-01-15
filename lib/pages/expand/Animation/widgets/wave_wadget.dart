@@ -1,32 +1,21 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart' hide Image;
-import 'dart:ui' show Image;
 
 class WaveWidget extends StatefulWidget {
-  /**
-   * 控件大小
-   */
+///控件大小
   Size size;
 
-  /**
-   * 振幅
-   */
+  ///振幅
   double waveAmplitude;
 
-  /**
-   * 角度偏移
-   */
+///角度偏移
   double wavePhase;
 
-  /**
-   * 频率
-   */
+///频率
   double waveFrequency;
 
-  /**
-   * x轴位置百分比
-   */
+///x轴位置百分比
   double heightPercentange;
 
   Color bgColor;
@@ -95,29 +84,19 @@ class _MyWavePaint extends CustomPainter {
         Listenable repaint})
       : super(repaint: repaint);
 
-  /**
-   * 振幅
-   */
+///振幅
   double waveAmplitude;
 
-  /**
-   * 角度
-   */
+///角度
   Animation<double> wavePhaseValue;
 
-  /**
-   * 频率
-   */
+///频率
   double waveFrequency;
 
-  /**
-   * x轴位置百分比
-   */
+///x轴位置百分比
   double heightPercentange;
 
-  /**
-   * 图标偏移
-   */
+///图标偏移
   Offset imgOffset;
   Color bgColor;
   Path path1 = Path();

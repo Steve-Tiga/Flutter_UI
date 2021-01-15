@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/element/Text/widget/richText_view.dart';
-import 'package:flutterstudy/res/colors.dart';
+import 'package:flutterstudy/util/colors.dart';
 
 class TextPage extends StatefulWidget {
   @override

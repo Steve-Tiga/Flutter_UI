@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/element/widgets/element_title_view.dart';
-import 'package:flutterstudy/res/resources.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ImagePage extends StatefulWidget {

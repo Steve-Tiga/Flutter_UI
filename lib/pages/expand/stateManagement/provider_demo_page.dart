@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutterstudy/util/colors.dart';
 import 'package:provider/provider.dart';
-import 'package:flutterstudy/res/resources.dart';
+
 
 class ProviderDemoPage extends StatefulWidget {
   @override
