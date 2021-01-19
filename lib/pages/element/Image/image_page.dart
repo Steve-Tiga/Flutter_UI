@@ -63,7 +63,7 @@ class _ImagePageState extends State<ImagePage> {
             ),
             ElementTitleView('加载项目图片'),
             Container(
-              color: HSLColors.bg_color,
+              color: HSLColors.athens,
               height: 400,
               padding: const EdgeInsets.all(20),
               child: GridView(

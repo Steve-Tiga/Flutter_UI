@@ -15,11 +15,11 @@ class ThemeUtils {
   }
 
   static Color getIconColor(BuildContext context) {
-    return isDark(context) ? HSLColors.dark_text : null;
+    return isDark(context) ? Colors.grey : null;
   }
 
   static Color getKeyboardActionsColor(BuildContext context) {
-    return isDark(context) ? HSLColors.dark_bg_color : Colors.grey[200];
+    return isDark(context) ? Colors.black : Colors.grey[200];
   }
 
   /// 设置NavigationBar样式
@@ -35,7 +35,7 @@ class ThemeUtils {
       print(_isDark);
       final SystemUiOverlayStyle systemUiOverlayStyle = SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
-        systemNavigationBarColor: _isDark ? HSLColors.dark_bg_color : Colors.white,
+        systemNavigationBarColor: _isDark ? Colors.black : Colors.white,
         systemNavigationBarIconBrightness: _isDark ? Brightness.light : Brightness.dark,
       );
       SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);

@@ -41,7 +41,7 @@ class _RichTextPageState extends State<RichTextPage> {
             ),
             SizedBox(
               child: Container(
-                color: HSLColors.bg_color,
+                color: HSLColors.athens,
               ),
               height: 12,
             ),
@@ -59,7 +59,7 @@ class _RichTextPageState extends State<RichTextPage> {
                 )),
             SizedBox(
               child: Container(
-                color: HSLColors.bg_color,
+                color: HSLColors.athens,
               ),
               height: 12,
             ),
@@ -89,7 +89,7 @@ class _RichTextPageState extends State<RichTextPage> {
                 )),
             SizedBox(
               child: Container(
-                color: HSLColors.bg_color,
+                color: HSLColors.athens,
               ),
               height: 12,
             ),
@@ -115,7 +115,7 @@ class _RichTextPageState extends State<RichTextPage> {
             ),
             SizedBox(
               child: Container(
-                color: HSLColors.bg_color,
+                color: HSLColors.athens,
               ),
               height: 12,
             ),
@@ -141,7 +141,7 @@ class _RichTextPageState extends State<RichTextPage> {
             ),
             SizedBox(
               child: Container(
-                color: HSLColors.bg_color,
+                color: HSLColors.athens,
               ),
               height: 12,
             ),

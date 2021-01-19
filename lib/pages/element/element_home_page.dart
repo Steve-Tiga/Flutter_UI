@@ -35,7 +35,7 @@ class _ElementHomePageState extends State<ElementHomePage> {
     isDark = context.isDark;
     return <Widget>[
       SliverAppBar(
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         backgroundColor: HSLColors.caribbean_color,
         expandedHeight: 250.0,
         pinned: true,
@@ -43,7 +43,7 @@ class _ElementHomePageState extends State<ElementHomePage> {
           title: Text('基础元素'),
           background: isDark
               ? Container(
-                  color: HSLColors.dark_bg_color,
+                  color: Colors.black,
                 )
               : headerView(),
           titlePadding:

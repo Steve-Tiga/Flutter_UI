@@ -38,7 +38,7 @@ class _ElementLayoutPageState extends State<ElementLayoutPage> with AutomaticKee
     return DefaultTabController(
         length: 2,
         child: Scaffold(
-          backgroundColor: HSLColors.bg_color,
+          backgroundColor: HSLColors.athens,
           appBar: AppBar(
             title: Text('布局'),
             bottom: TabBar(

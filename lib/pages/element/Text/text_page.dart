@@ -19,7 +19,7 @@ class _TextPageState extends State<TextPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: HSLColors.bg_color,
+      backgroundColor: HSLColors.athens,
       appBar: AppBar(
         title: Text('文本'),
       ),

@@ -29,7 +29,7 @@ class HomePageCard extends StatelessWidget {
     Color _shadowColor;
     final bool isDark = context.isDark;
     if (color == null) {
-      _backgroundColor = isDark ? HSLColors.dark_bg_color : Colors.white;
+      _backgroundColor = isDark ? Colors.black : Colors.white;
     } else {
       _backgroundColor = color;
     }

@@ -37,7 +37,7 @@ class StateManageListItem extends StatelessWidget {
                     textAlign: TextAlign.start,
                     style: TextStyle(
                         fontSize: 14.0,
-                        color: HSLColors.dark_text,
+                        color: Colors.grey,
                         textBaseline: TextBaseline.alphabetic),
                   ),
                 ],

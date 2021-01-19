@@ -79,7 +79,7 @@ class _StateManagementPageState extends State<StateManagementPage> {
         itemCount: _items.length,
         physics: AlwaysScrollableScrollPhysics(),
         separatorBuilder: (BuildContext context, int index) {
-          return Divider(height: 1, color: HSLColors.line);
+          return Divider(height: 1, color: HSLColors.selago);
         },
         itemBuilder: (BuildContext context, int index) {
           return StateManageListItem(

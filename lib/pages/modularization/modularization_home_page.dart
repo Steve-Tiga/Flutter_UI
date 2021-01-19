@@ -94,7 +94,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
         child: Container(
           padding: const EdgeInsets.all(12),
           decoration: BoxDecoration(
-            color: HSLColors.bg_color,
+            color: HSLColors.athens,
             borderRadius: BorderRadius.circular(8.0),
           ),
           child: Row(
@@ -133,7 +133,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
                       Text(
                         '${listData.subTitle}',
                         textAlign: TextAlign.left,
-                        style: TextStyle(color: HSLColors.dark_text,fontSize: 16),
+                        style: TextStyle(color: Colors.grey,fontSize: 16),
 //                          overflow: TextOverflow.ellipsis,
 //                          softWrap: true,
                       ),
@@ -165,7 +165,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
             boxShadow: <BoxShadow>[
               BoxShadow(
                   color:
-                      HSLColors.dark_bg_color.withOpacity(0.4 * topBarOpacity),
+                      Colors.black.withOpacity(0.4 * topBarOpacity),
                   offset: const Offset(1.1, 1.1),
                   blurRadius: 10.0),
             ],
@@ -194,7 +194,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
                             fontWeight: FontWeight.w700,
                             fontSize: 22 + 6 - 6 * topBarOpacity,
                             letterSpacing: 1.2,
-                            color: HSLColors.dark_bg_color,
+                            color: Colors.black,
                           ),
                         ),
                       ),
@@ -210,7 +210,7 @@ class _ModularizationHomePageState extends State<ModularizationHomePage>
                         child: Center(
                           child: Icon(
                             Icons.radio_button_checked,
-                            color: HSLColors.text,
+                            color: Colors.black,
                           ),
                         ),
                       ),

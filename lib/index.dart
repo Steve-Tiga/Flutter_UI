@@ -50,19 +50,19 @@ class _IndexPageState extends State<IndexPage> {
     if (_list == null) {
       const _tabImages = [
         [
-          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.unselected_item_color,),
+          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: Colors.grey,),
           LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
-          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.unselected_item_color,),
+          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: Colors.grey,),
           LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
-          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.unselected_item_color,),
+          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: Colors.grey,),
           LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
-          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.unselected_item_color,),
+          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: Colors.grey,),
           LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ]
       ];
@@ -82,19 +82,19 @@ class _IndexPageState extends State<IndexPage> {
       const _tabImagesDark = [
         [
           LoadAssetImage('tabBar/element_tabbar', width: _imageSize),
-          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.dark_app_main,),
+          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
           LoadAssetImage('tabBar/module_tabbar', width: _imageSize),
-          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.dark_app_main,),
+          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
           LoadAssetImage('tabBar/expand_tabbar', width: _imageSize),
-          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.dark_app_main,),
+          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ],
         [
           LoadAssetImage('tabBar/about_tabbar', width: _imageSize),
-          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.dark_app_main,),
+          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.app_main,),
         ]
       ];
 
@@ -127,7 +127,7 @@ class _IndexPageState extends State<IndexPage> {
                   selectedFontSize: 14,
                   unselectedFontSize: 12,
                   selectedItemColor: Theme.of(context).primaryColor,
-                  unselectedItemColor: isDark ? HSLColors.dark_unselected_item_color : HSLColors.unselected_item_color,
+                  unselectedItemColor: isDark ? Colors.black : Colors.grey,
                   onTap: (index) => _pageController.jumpToPage(index),
                 );
               },

@@ -10,7 +10,7 @@ class ElementTitleView extends StatelessWidget {
     return Container(
       height: 60,
       decoration: BoxDecoration(
-          border: Border(bottom: BorderSide(width: 1, color: HSLColors.line))),
+          border: Border(bottom: BorderSide(width: 1, color: HSLColors.selago))),
       child: Row(
         children: [
           Container(

@@ -38,5 +38,11 @@ class ModularizationList {
       subTitle: '聊天页面聊天页面聊天页面聊天页面聊天',
       navigateScreen: ChatPage(),
     ),
+    ModularizationList(
+      title: '购物车',
+      imagePath: 'element/BasicsBg',
+      subTitle: '聊天页面聊天页面聊天页面聊天页面聊天',
+      navigateScreen: ChatPage(),
+    ),
     ];
 }

@@ -28,7 +28,7 @@ class _NatworkPageState extends State<NatworkPage> {
                   ElementTitleView('json数据'),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    color: HSLColors.bg_color,
+                    color: HSLColors.athens,
                     height: 250,
                     child: SingleChildScrollView(
                         child: Text('${response.data.toString()}'),
@@ -37,7 +37,7 @@ class _NatworkPageState extends State<NatworkPage> {
                   ElementTitleView('json转model'),
                   Container(
                     padding: const EdgeInsets.all(12),
-                    color: HSLColors.bg_color,
+                    color: HSLColors.athens,
                     height: 250,
                     child: SingleChildScrollView(
                       child: Text('${model.result.data}'),
