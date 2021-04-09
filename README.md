@@ -1,4 +1,4 @@
-# flutterstudy
+# FLUI
 
 A new Flutter application.
 
