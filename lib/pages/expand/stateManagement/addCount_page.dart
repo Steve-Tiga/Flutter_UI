@@ -79,7 +79,6 @@ class _AddCountPageState extends State<AddCountPage> {
                 builder: (context) => FlatButton(
                   color: HSLColors.app_main,
                   textColor: Colors.white,
-                  minWidth: 200,
                   height: 50,
                   onPressed: () => MyNotification('接受到通知').dispatch(context),
                   child: Text('发送通知'),

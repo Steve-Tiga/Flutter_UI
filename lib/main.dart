@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         child: MultiProvider(
           providers: [ChangeNotifierProvider(create: (_) => LocaleProvider())],
           child: MaterialApp(
+            debugShowCheckedModeBanner: false,
             title: 'Flutter Demo',
             theme: ThemeData(
               primarySwatch: Colors.blue,
@@ -25,7 +26,6 @@ class MyApp extends StatelessWidget {
             home: IndexPage(),
           ),
         ),
-
         /// Toast 配置
         backgroundColor: Colors.black54,
         textPadding:

@@ -1,0 +1,6 @@
+framework module flutter_tencentplayer {
+  umbrella header "flutter_tencentplayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

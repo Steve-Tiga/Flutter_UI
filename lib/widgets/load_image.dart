@@ -13,8 +13,6 @@ class LoadImage extends StatelessWidget {
     this.fit = BoxFit.cover,
     this.format = ImageFormat.png,
     this.holderImg = 'none',
-    this.cacheWidth,
-    this.cacheHeight,
   }) : assert(image != null, 'The [image] argument must not be null.'),
         super(key: key);
 
@@ -24,8 +22,6 @@ class LoadImage extends StatelessWidget {
   final BoxFit fit;
   final ImageFormat format;
   final String holderImg;
-  final int cacheWidth;
-  final int cacheHeight;
 
   @override
   Widget build(BuildContext context) {
@@ -39,8 +35,6 @@ class LoadImage extends StatelessWidget {
         width: width,
         height: height,
         fit: fit,
-        memCacheWidth: cacheWidth,
-        memCacheHeight: cacheHeight,
       );
     } else {
       return LoadAssetImage(image,
@@ -48,8 +42,6 @@ class LoadImage extends StatelessWidget {
         width: width,
         fit: fit,
         format: format,
-        cacheWidth: cacheWidth,
-        cacheHeight: cacheHeight,
       );
     }
   }
@@ -80,7 +72,6 @@ class LoadAssetImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Image.asset(
       ImageUtils.getImgPath(image, format: format),
       height: height,

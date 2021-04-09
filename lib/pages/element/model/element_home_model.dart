@@ -54,7 +54,7 @@ class HomeList {
       navigateScreen: ImagePage(),
     ),
     HomeList(
-      title: '单选&复选',
+      title: '单/复选',
       imagePath: 'common/wave_bg',
       subTitle: 'Chackbox',
       subImagePath: 'element/element_layout',

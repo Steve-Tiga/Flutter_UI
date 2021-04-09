@@ -51,26 +51,26 @@ class _IndexPageState extends State<IndexPage> {
       const _tabImages = [
         [
           LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: Colors.grey,),
-          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.app_main,),
+          LoadAssetImage('tabBar/element_tabbar', width: _imageSize, color: HSLColors.flamingo,),
         ],
         [
           LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: Colors.grey,),
-          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.app_main,),
+          LoadAssetImage('tabBar/module_tabbar', width: _imageSize, color: HSLColors.flamingo,),
         ],
         [
           LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: Colors.grey,),
-          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.app_main,),
+          LoadAssetImage('tabBar/expand_tabbar', width: _imageSize, color: HSLColors.flamingo,),
         ],
         [
           LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: Colors.grey,),
-          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.app_main,),
+          LoadAssetImage('tabBar/about_tabbar', width: _imageSize, color: HSLColors.flamingo,),
         ]
       ];
       _list = List.generate(_tabImages.length, (i) {
         return BottomNavigationBarItem(
           icon: _tabImages[i][0],
           activeIcon: _tabImages[i][1],
-          label: _appBarTitles[i],
+          label: _appBarTitles[i]
         );
       });
     }
@@ -126,7 +126,7 @@ class _IndexPageState extends State<IndexPage> {
                   iconSize: 21.0,
                   selectedFontSize: 14,
                   unselectedFontSize: 12,
-                  selectedItemColor: Theme.of(context).primaryColor,
+                  selectedItemColor: HSLColors.flamingo,
                   unselectedItemColor: isDark ? Colors.black : Colors.grey,
                   onTap: (index) => _pageController.jumpToPage(index),
                 );
