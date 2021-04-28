@@ -25,7 +25,8 @@ class ModularizationList {
       title: '视频播放',
       imagePath: 'element/BasicsBg',
       subTitle: '基于flutter_tencentplayer的视频播放页面',
-      navigateScreen: WindowVideoPage(dataSource: 'http://1252463788.vod2.myqcloud.com/95576ef5vodtransgzp1252463788/e1ab85305285890781763144364/v.f10.mp4',),
+      // navigateScreen: WindowVideoPage(dataSource: 'http://1252463788.vod2.myqcloud.com/95576ef5vodtransgzp1252463788/e1ab85305285890781763144364/v.f10.mp4',),
+      navigateScreen: ChatPage(),
     ),
     ModularizationList(
       title: '图表页面',
