@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/FLTPathProviderPlugin.h</key>
 		<data>
-		pXsnjYVkAdouQSnGg2hkegS9oRY=
+		+07W1N145g6+kFz/ocqMqHbdR6M=
 		</data>
 		<key>Headers/path_provider-umbrella.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XAJmE68xiVMNLe1cPd2K5ioUIbg=
+		HltpscD0OX0JltfwaJxtTIKfwYM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pXsnjYVkAdouQSnGg2hkegS9oRY=
+			+07W1N145g6+kFz/ocqMqHbdR6M=
 			</data>
 			<key>hash2</key>
 			<data>
-			aIseqruSAXz9eCFGQqMt5kbxdmJ/iQ71kd5eq49mJRg=
+			eRnBn9tRArmcmJ9UN/gE8Lokm52lhAX0yeWEFxjMJUY=
 			</data>
 		</dict>
 		<key>Headers/path_provider-umbrella.h</key>

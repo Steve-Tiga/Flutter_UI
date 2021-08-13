@@ -1,11 +1,11 @@
 # This is a generated file; do not edit or check into version control.
-flutter_forbidshot=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_forbidshot-0.0.2/
-flutter_plugin_android_lifecycle=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_plugin_android_lifecycle-1.0.11/
-flutter_tencentplayer=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_tencentplayer-0.13.0/
-image_picker=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.6.7+21/
-path_provider=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider-1.6.27/
-path_provider_linux=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-0.0.1+2/
-path_provider_macos=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_macos-0.0.4+8/
-path_provider_windows=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-0.0.4+3/
-screen=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/screen-0.0.5/
-sqflite=/Users/mt/Desktop/Flutter项目/flutter/.pub-cache/hosted/pub.flutter-io.cn/sqflite-1.3.1+2/
+flutter_forbidshot=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/flutter_forbidshot-0.0.2/
+flutter_plugin_android_lifecycle=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/flutter_plugin_android_lifecycle-2.0.2/
+image_picker=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/image_picker-0.8.0+3/
+image_picker_for_web=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/image_picker_for_web-2.0.0/
+path_provider=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider-2.0.2/
+path_provider_linux=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.0.0/
+path_provider_macos=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider_macos-2.0.0/
+path_provider_windows=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.0.1/
+screen=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/screen-0.0.5/
+sqflite=/Users/ligeit/Desktop/flutter/flutter 2.2.1/.pub-cache/hosted/pub.flutter-io.cn/sqflite-2.0.0+3/

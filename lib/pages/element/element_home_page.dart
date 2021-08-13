@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutterstudy/pages/expand/Animation/widgets/wave_wadget.dart';
-import 'package:flutterstudy/util/colors.dart';
 import 'package:flutterstudy/util/utils.dart';
 import 'package:flutterstudy/widgets/load_image.dart';
 import 'model/element_home_model.dart';
