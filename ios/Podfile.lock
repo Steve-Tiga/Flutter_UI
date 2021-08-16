@@ -2,9 +2,6 @@ PODS:
   - Flutter (1.0.0)
   - flutter_forbidshot (0.0.1):
     - Flutter
-  - flutter_tencentplayer (0.13.0):
-    - Flutter
-    - TXLiteAVSDK_Player (= 8.2.9808)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -14,15 +11,13 @@ PODS:
     - Flutter
   - screen (0.0.1):
     - Flutter
-  - sqflite (0.0.1):
+  - sqflite (0.0.2):
     - Flutter
-    - FMDB (~> 2.7.2)
-  - TXLiteAVSDK_Player (8.2.9808)
+    - FMDB (>= 2.7.5)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_forbidshot (from `.symlinks/plugins/flutter_forbidshot/ios`)
-  - flutter_tencentplayer (from `.symlinks/plugins/flutter_tencentplayer/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - screen (from `.symlinks/plugins/screen/ios`)
@@ -31,15 +26,12 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FMDB
-    - TXLiteAVSDK_Player
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
   flutter_forbidshot:
     :path: ".symlinks/plugins/flutter_forbidshot/ios"
-  flutter_tencentplayer:
-    :path: ".symlinks/plugins/flutter_tencentplayer/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
   path_provider:
@@ -50,16 +42,14 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/sqflite/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   flutter_forbidshot: feac5273065c5b7b6b57a9c6ec4936e3be473523
-  flutter_tencentplayer: 58156739fafe40dfc6e889217e4f3333576bf804
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+  image_picker: e06f7a68f000bd36f552c1847e33cda96ed31f1f
   path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
   screen: abd91ca7bf3426e1cc3646d27e9b2358d6bf07b0
-  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
-  TXLiteAVSDK_Player: c4b75e206a7be9450efe05479ca2c79898e0c07c
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
 
 PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

@@ -13,43 +13,25 @@ class ButtonView extends StatelessWidget {
           child: Center(
         child: Column(
           children: [
-            RaisedButton(
-              child: Text('RaisedButton'),
+            TextButton(
+              child: Text('TextButton'),
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Colors.blue),
+                  foregroundColor: MaterialStateProperty.all(Colors.white)),
               onPressed: () {},
             ),
-            FlatButton(
-              child: Text('FlatButton'),
-              color: Colors.blue,
+            OutlinedButton(
+              child: Text('OutlinedButton'),
               onPressed: () {},
             ),
-            OutlineButton(
-              child: Text('OutlineButton'),
-              onPressed: () {},
-            ),
-            RaisedButton(
-              child: Text('点击RaisedButton'),
+            ElevatedButton(
+              child: Text('点击ElevatedButton'),
               onPressed: () {
                 showToast('点击');
               },
               onLongPress: () {
                 showToast('长按');
               },
-              onHighlightChanged: (highlight) {
-                showToast('高亮:$highlight');
-              },
-            ),
-            RaisedButton(
-              child: Text('设置阴影'),
-              onPressed: () {},
-              elevation: 10.0,
-            ),
-            RaisedButton(
-              child: Text('设置形状'),
-              onPressed: () {},
-              shape: BeveledRectangleBorder(
-                  side: BorderSide(width: 1, color: Colors.red),
-                  borderRadius: BorderRadius.circular(10)),
-              elevation: 1.0,
             ),
             SizedBox(
               height: 12,
@@ -90,13 +72,12 @@ class ButtonView extends StatelessWidget {
                     value: '化学',
                     child: Text('化学'),
                   ),
-
                 ];
               },
-              onSelected: (value){
+              onSelected: (value) {
                 print('$value');
               },
-              onCanceled: (){
+              onCanceled: () {
                 print('onCanceled');
               },
             ),
@@ -109,7 +90,7 @@ class ButtonView extends StatelessWidget {
             ),
             CupertinoButton(
               child: Text('ios 风格按钮'),
-              onPressed: (){},
+              onPressed: () {},
               color: Colors.blue,
               pressedOpacity: .5,
               borderRadius: BorderRadius.circular(40),

@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/FLTImagePickerImageUtil.h</key>
 		<data>
-		ZpV0IVvZe+QoN9ibIdFjySW71JA=
+		4psxowtH2ZvLODf+tBgKJYuDX/M=
 		</data>
 		<key>Headers/FLTImagePickerMetaDataUtil.h</key>
 		<data>
-		+0nZlYdgG2C050GBEYmQPWB3q4Q=
+		D05GW0AdmRj31z9xhbdCVz7Cyjk=
 		</data>
 		<key>Headers/FLTImagePickerPhotoAssetUtil.h</key>
 		<data>
-		EWaT3q4MsX6JiAEKP6Vo0360Sb4=
+		m1+hnaDML8QTN58Ul1U19kQsgm8=
 		</data>
 		<key>Headers/FLTImagePickerPlugin.h</key>
 		<data>
-		H5R7WXPW3yF/8ozwhPvmI8zBbXg=
+		uFVm828TX1UmFmZPBE2YWBxQ4k8=
 		</data>
 		<key>Headers/image_picker-umbrella.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YD1LuS9HBhQ+GLFCXP4cEfJgw6I=
+		y1LY73wfA65qmoAxz9B5EcV48KE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,44 +39,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZpV0IVvZe+QoN9ibIdFjySW71JA=
+			4psxowtH2ZvLODf+tBgKJYuDX/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			uWz8TGF+yprQwUKFeOhQaAvkv41ByTh8engTR2iZynw=
+			iHYZCLrrJ9P+EICaLY7YhQUuGs8RnEnnZDGeju347bA=
 			</data>
 		</dict>
 		<key>Headers/FLTImagePickerMetaDataUtil.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+0nZlYdgG2C050GBEYmQPWB3q4Q=
+			D05GW0AdmRj31z9xhbdCVz7Cyjk=
 			</data>
 			<key>hash2</key>
 			<data>
-			d91apzZ4hREU+kZsQBxkdfOrQdsMiiPI/Fz5pRdiQK4=
+			1buljoRg+pbEuaFzT5ac/Ukbfafsz93phPiHMDavcjE=
 			</data>
 		</dict>
 		<key>Headers/FLTImagePickerPhotoAssetUtil.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EWaT3q4MsX6JiAEKP6Vo0360Sb4=
+			m1+hnaDML8QTN58Ul1U19kQsgm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yM7wCYEFBoiPOqzQk+Czud7k2n4GVMHtpT9xfmRUm48=
+			Ne2NeyR/GgW/ieixcr5Zpm0UonON8854oAr7FAgrb8g=
 			</data>
 		</dict>
 		<key>Headers/FLTImagePickerPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H5R7WXPW3yF/8ozwhPvmI8zBbXg=
+			uFVm828TX1UmFmZPBE2YWBxQ4k8=
 			</data>
 			<key>hash2</key>
 			<data>
-			j6apStX+NCIs4YGL4C6WnqJYRVcD/tLX5Zm8it3w8J8=
+			x2pQ3urChPqb25FxG8Whl2uHSGH6pvtEW+I2lNisTmw=
 			</data>
 		</dict>
 		<key>Headers/image_picker-umbrella.h</key>

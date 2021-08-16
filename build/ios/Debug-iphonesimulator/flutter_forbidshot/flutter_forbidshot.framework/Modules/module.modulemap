@@ -1,0 +1,6 @@
+framework module flutter_forbidshot {
+  umbrella header "flutter_forbidshot-umbrella.h"
+
+  export *
+  module * { export * }
+}

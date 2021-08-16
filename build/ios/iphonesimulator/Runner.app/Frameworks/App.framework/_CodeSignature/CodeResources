@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		Ym19gURPIMnee82iTjYg0UGfG4w=
+		5TjRDgetsENkkpcJKeeM1UjXhd8=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -18,15 +18,11 @@
 		</data>
 		<key>flutter_assets/NOTICES</key>
 		<data>
-		u4X3kgss5b+owoyh90lV0P5BIBk=
+		MAo5UzawJx5KDKakNoLub1EFwvU=
 		</data>
 		<key>flutter_assets/assets/images/common/%E8%A1%A8%E6%83%85%E5%8C%85.png</key>
 		<data>
 		Z+/VtMRQV7jsQFzxDpMjnDmIaMU=
-		</data>
-		<key>flutter_assets/assets/images/common/.DS_Store</key>
-		<data>
-		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>flutter_assets/assets/images/common/SliverAppBar_bg.png</key>
 		<data>
@@ -35,10 +31,6 @@
 		<key>flutter_assets/assets/images/common/wave_bg.png</key>
 		<data>
 		hM6pbUvng3NBELKJQPhuYTSmd1g=
-		</data>
-		<key>flutter_assets/assets/images/element/.DS_Store</key>
-		<data>
-		3y++sUAKzaCQmjLBz2v0kvESHgc=
 		</data>
 		<key>flutter_assets/assets/images/element/BasicsBg.png</key>
 		<data>
@@ -56,6 +48,34 @@
 		<data>
 		GUmHATT+pMVjE1Fpi9pJxPRF3NY=
 		</data>
+		<key>flutter_assets/assets/images/lottery/bg_lottery_beijing.png</key>
+		<data>
+		yEHKUfpFEVmqws/DF7qB6hrsVf0=
+		</data>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_down.png</key>
+		<data>
+		+jq4BvmBw/KnFrzVxhMIru0NUc8=
+		</data>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_up.png</key>
+		<data>
+		CFoiu50sHeRGRfDKLehaiZVhQI0=
+		</data>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_up_di.png</key>
+		<data>
+		qb8WUpecculp10f52ovlbthk28M=
+		</data>
+		<key>flutter_assets/assets/images/lottery/lottery_anniu.png</key>
+		<data>
+		bGLfWu9d4AI7eoMIeJ+eJE/2L24=
+		</data>
+		<key>flutter_assets/assets/images/lottery/lottery_anniu_slices.png</key>
+		<data>
+		IFMMut2sE+sZD7V9ak9Mklx38bQ=
+		</data>
+		<key>flutter_assets/assets/images/lottery/lottery_icon_choujiang.png</key>
+		<data>
+		aQ+SBJWIoXwyAciv0lucBeVhNsw=
+		</data>
 		<key>flutter_assets/assets/images/tabBar/about_tabbar.png</key>
 		<data>
 		Is49njx6dPBY1UJRMs3v5MekE20=
@@ -72,17 +92,21 @@
 		<data>
 		ip3vKlB0uf6eTBxuzk2WH2cBiU4=
 		</data>
+		<key>flutter_assets/assets/lottie/67412-fireworks.json</key>
+		<data>
+		PtwQ3nJQjvhv2QF83xe2Z6ZxuL4=
+		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
-		XxTTbEdqMMr+614Mzm3EJYMaT9I=
+		33xe6rFwPlxRnZOgZWsODADpUI4=
 		</data>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<data>
-		IFA8wpsYhsgLNUd9Ts9Z1VaOxt8=
+		ELluN2aQ5lXx4NZnJlBUXyZEfGo=
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		B+6FUIgfWWBSTu0F7NGaqLXn8cQ=
+		lHGibOI7n0Q/LuSaz5Yuq0hWXoc=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -90,7 +114,7 @@
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
-		PVqFLmX9s4tyV1YTHpe6dp/PVWU=
+		BICKLyZmEDX0yMJrQwYDz3tKwt8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -99,11 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ym19gURPIMnee82iTjYg0UGfG4w=
+			5TjRDgetsENkkpcJKeeM1UjXhd8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+SpcaHXYaqJ6zJFPaWBV9JmAdcA27aVJQXrn1soI1XU=
+			bRcGjJqDLU3WvEpPVWMMuCahW4O24PMNk72c/JbrQC8=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -121,11 +145,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u4X3kgss5b+owoyh90lV0P5BIBk=
+			MAo5UzawJx5KDKakNoLub1EFwvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			uLrU7xpBNCVyI6PCAfUUYTPe951ms5TaHge8A1YChwM=
+			EQKPRao0c7lOyqX55vKegNDM5Z34jTZSEIoCfldfQlU=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/common/%E8%A1%A8%E6%83%85%E5%8C%85.png</key>
@@ -205,6 +229,83 @@
 			OebgrB2KOqdOxDuiYmNBefPzM0J/NIolHtNVZMYRsAU=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/lottery/bg_lottery_beijing.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yEHKUfpFEVmqws/DF7qB6hrsVf0=
+			</data>
+			<key>hash2</key>
+			<data>
+			f5OZj3Lg2GHrIxsoAzM6PmMsj9Shsh+VwIsy/4yqtrY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_down.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+jq4BvmBw/KnFrzVxhMIru0NUc8=
+			</data>
+			<key>hash2</key>
+			<data>
+			L5CxWYh5qNYF4gC7rXGk5Aom9ZAVUoa1E2pCy4YHeSo=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_up.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CFoiu50sHeRGRfDKLehaiZVhQI0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qy1FYN+TASTBazQ2lnfGzhhXdwVJxkBTPoTL1gztyYo=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/bg_zhuanpan_up_di.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qb8WUpecculp10f52ovlbthk28M=
+			</data>
+			<key>hash2</key>
+			<data>
+			4wOLUXakBdHKnuN9Dfiac+zqyo9iOAfdgsSCe/Y0/+A=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/lottery_anniu.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bGLfWu9d4AI7eoMIeJ+eJE/2L24=
+			</data>
+			<key>hash2</key>
+			<data>
+			KDNf13Xca+qU9hZaA5WtyadbKJwuFxRPZ8LWkJHoGpI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/lottery_anniu_slices.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IFMMut2sE+sZD7V9ak9Mklx38bQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			v7xcHOZElOh9fUduD+8adwAcQ6LNz5PxbVNkvMrNhl8=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/lottery/lottery_icon_choujiang.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aQ+SBJWIoXwyAciv0lucBeVhNsw=
+			</data>
+			<key>hash2</key>
+			<data>
+			gQ/xKGmHfIYZ2YdiazuAh3/xDAxSIGeL/Y3SsyZahYw=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/tabBar/about_tabbar.png</key>
 		<dict>
 			<key>hash</key>
@@ -249,37 +350,48 @@
 			vQzBR4GuqN6GeqeIa7zqEOKi1R1tNOtXqRwRSJ1VBv0=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/lottie/67412-fireworks.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PtwQ3nJQjvhv2QF83xe2Z6ZxuL4=
+			</data>
+			<key>hash2</key>
+			<data>
+			b4TN+g7JQ1QjGLmWIYJeJ1GtNyT1qPVYftebMPa90HM=
+			</data>
+		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XxTTbEdqMMr+614Mzm3EJYMaT9I=
+			33xe6rFwPlxRnZOgZWsODADpUI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nt7OTUXA/dkAWXOmvWbTlkJLC1yvAxfCcd3OIaLWdQQ=
+			0E0I/gLatnGI9y4elyWPSg2LWYJSPgLt6hMvgJD5+rQ=
 			</data>
 		</dict>
 		<key>flutter_assets/isolate_snapshot_data</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IFA8wpsYhsgLNUd9Ts9Z1VaOxt8=
+			ELluN2aQ5lXx4NZnJlBUXyZEfGo=
 			</data>
 			<key>hash2</key>
 			<data>
-			jeNLJ5XygNyvkmx9Um7tJKZk8pFo+JKqChC0fW7Ykc0=
+			d5Zhq5S+3ylGF8osqx2M/nYmzI/1w4FDUIjGiKWFaOc=
 			</data>
 		</dict>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			B+6FUIgfWWBSTu0F7NGaqLXn8cQ=
+			lHGibOI7n0Q/LuSaz5Yuq0hWXoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/sTj7BvZcWsBby2gStMF3vJ46rVWtAeoWJOtj5J2pD8=
+			ADgoEc4YJZzWGiBUAwDKz33Ru5GM6QhZOqde6HdjPTA=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -297,11 +409,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PVqFLmX9s4tyV1YTHpe6dp/PVWU=
+			BICKLyZmEDX0yMJrQwYDz3tKwt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+gHgpOEYHGeYAtvKDiRw/YC9zBJOfsyqEN9priH9ieU=
+			dW/lW8/DGE7kqgVOIL22hio/M/WrH8+bodAoyvhyXsU=
 			</data>
 		</dict>
 	</dict>

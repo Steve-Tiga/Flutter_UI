@@ -36,14 +36,12 @@ dependencies:
   # 图片缓存 https://github.com/renefloor/flutter_cached_network_image
   cached_network_image: any
   #获取手机图片
-  image_picker: ^0.6.7+21
+  image_picker: ^0.8.0+3
   #网络请求
-  dio: ^3.0.10
-  #视频播放
-  flutter_tencentplayer: ^0.13.0
+  dio: ^4.0.0
   screen: 0.0.5
   flutter_forbidshot: 0.0.2
-
+  lottie: ^1.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -65,6 +63,8 @@ flutter:
     - assets/images/tabBar/
     - assets/images/common/
     - assets/images/element/
+    - assets/images/lottery/
+    - assets/lottie/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
